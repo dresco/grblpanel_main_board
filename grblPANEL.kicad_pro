@@ -30,7 +30,25 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|1752600|1003300|a7f09580-a38e-467d-b204-bcc501e05b56|04848346-c27c-4ac7-8554-a7efef1e0e1c",
+      "pin_to_pin|1752600|1003300|a7f09580-a38e-467d-b204-bcc501e05b56|0596e478-30a9-4f47-bea2-6eeac56ec61c",
+      "pin_to_pin|1752600|1003300|a7f09580-a38e-467d-b204-bcc501e05b56|0ba3d12b-5362-4b18-b2cb-48161f1f2239",
+      "pin_to_pin|1752600|1003300|a7f09580-a38e-467d-b204-bcc501e05b56|622d1abe-004d-4379-b7f8-c0cfce7346f3",
+      "pin_to_pin|1752600|1003300|a7f09580-a38e-467d-b204-bcc501e05b56|63a08166-85a4-4d65-9764-370960df12ee",
+      "pin_to_pin|1752600|1003300|a7f09580-a38e-467d-b204-bcc501e05b56|7c95cb3e-a96e-4b67-8b14-5b4838e90a5f",
+      "pin_to_pin|1752600|1003300|a7f09580-a38e-467d-b204-bcc501e05b56|7d4b168d-24c0-4b8b-a291-3620c8831cd7",
+      "pin_to_pin|1752600|1003300|a7f09580-a38e-467d-b204-bcc501e05b56|a8c580aa-9705-4684-b021-ab17c9ad9099",
+      "pin_to_pin|1752600|1003300|a7f09580-a38e-467d-b204-bcc501e05b56|b69c3d94-5ce7-4ac5-8a95-d1e41e51fb32",
+      "pin_to_pin|1752600|1003300|a7f09580-a38e-467d-b204-bcc501e05b56|bdcbca68-5264-4dc5-b3e2-93dc3525dbf4",
+      "pin_to_pin|1752600|1003300|a7f09580-a38e-467d-b204-bcc501e05b56|c2f0bc3c-b45f-4b85-b517-e02c97853483",
+      "pin_to_pin|1752600|1003300|a7f09580-a38e-467d-b204-bcc501e05b56|c41e9dc7-abb4-43b3-895c-c117c8778fd3",
+      "pin_to_pin|1752600|1003300|a7f09580-a38e-467d-b204-bcc501e05b56|e9012d1c-7a0f-4e7b-8196-30c2a8cf8c34",
+      "pin_to_pin|1752600|1003300|a7f09580-a38e-467d-b204-bcc501e05b56|eb697a57-776d-4971-82f7-572156e808a5",
+      "pin_to_pin|1752600|1003300|a7f09580-a38e-467d-b204-bcc501e05b56|ef354ee5-1158-4040-97a2-92268f42ea4b",
+      "pin_to_pin|1752600|1003300|a7f09580-a38e-467d-b204-bcc501e05b56|feea9a0e-bd86-447c-bb4a-65795b445d38",
+      "pin_to_pin|2247900|647700|90da41fa-8d15-4d3f-9600-2837ff6f37f6|4fd7841c-3d3e-487d-a306-9df348eec5c9"
+    ],
     "meta": {
       "version": 0
     },
@@ -279,7 +297,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 100,
+    "annotate_start_num": 500,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
