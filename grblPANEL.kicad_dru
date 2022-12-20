@@ -1,0 +1,11 @@
+(version 1)
+
+(rule "ADP5589 neckdown"
+	(constraint track_width (min 0.127mm) (opt 0.15mm) (max 0.25mm))
+	(constraint clearance (min 0.127mm))
+	(condition "A.insideCourtyard('U601')"))
+	
+(rule "STM32G0 neckdown"
+	(constraint track_width (min 0.127mm) (opt 0.15mm) (max 0.25mm))
+	(constraint clearance (min 0.127mm))
+	(condition "A.insideCourtyard('U201')"))	
