@@ -31,6 +31,11 @@
     (effects (font (size 4 4) (thickness 1) bold italic) (justify left bottom))
     (uuid 68312c22-7a97-4985-a396-dd106d856096)
   )
+  (text "Note:\n\nInvestigate options for 4 channel TVS arrays;\nPESD3V3L4BHC\nPUSB3AB4\nPESD4USB3B\n\nAlso resistor arrays (for display).."
+    (at 20.32 191.77 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 97b9412e-6e6a-4809-a219-485b8bdc39b5)
+  )
   (text "[6] Keypad" (at 104.14 93.98 0)
     (effects (font (size 4 4) (thickness 1) bold italic) (justify left bottom))
     (uuid accab4aa-ae3a-408c-8d88-5450371aa4eb)
@@ -397,9 +402,6 @@
     (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/d1d76ae4-1a9c-49a7-aef4-1e38b31e1a41"
       (reference "C502") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/0d441b06-4635-4e09-a06f-945751747df1"
-      (reference "C503") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
     (path "/7148135c-915e-4af4-a225-653bce14d471/e03e009e-f3ce-493f-8aab-8ed0c4528f2f"
       (reference "C601") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
@@ -516,6 +518,9 @@
     )
     (path "/099bce07-f087-4ecd-a01c-98dd8f97e8f8/a75e18fa-f0ca-4498-9a48-a9980185fc53"
       (reference "D708") (unit 1) (value "D_TVS") (footprint "Diode_SMD:D_SOD-323")
+    )
+    (path "/7148135c-915e-4af4-a225-653bce14d471/0d5d4aba-d658-478e-b973-c3bc44c70fa2"
+      (reference "D?") (unit 1) (value "PESD3V3L4UF") (footprint "Package_TO_SOT_SMD:SOT-886")
     )
     (path "/d3c757f4-85a2-4c64-b768-7bb57e3daca0/099b9606-b5db-4c56-980a-1663a2896b17"
       (reference "J101") (unit 1) (value "Conn_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal")
@@ -658,11 +663,11 @@
     (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/991e55d0-022d-40f6-ba85-4d4b655cd3b2"
       (reference "R502") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/d3b4e76e-bb50-45c5-b9b3-94e0c997b79c"
-      (reference "R503") (unit 1) (value "5R6") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
     (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/274f34a6-a307-48a7-a660-b805c6ca42ad"
-      (reference "R504") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R503") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/d3b4e76e-bb50-45c5-b9b3-94e0c997b79c"
+      (reference "R504") (unit 1) (value "5R6") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/262f5b07-e1ac-4703-8dae-32f0325a4b22"
       (reference "R505") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -759,6 +764,9 @@
     )
     (path "/099bce07-f087-4ecd-a01c-98dd8f97e8f8/46948b74-3b55-4147-a8d2-d5ba39813ff2"
       (reference "R708") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/7148135c-915e-4af4-a225-653bce14d471/6cd39ac1-1cc5-4bb8-ab3f-e9fbacf3fe45"
+      (reference "RN?") (unit 1) (value "R_Pack04") (footprint "")
     )
     (path "/437f2ceb-712b-41a0-9e79-c6c2becba629/ce40af38-6eca-4492-8fde-6e9a33cb1c65"
       (reference "SW201") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
