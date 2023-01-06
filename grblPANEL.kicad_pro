@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -60,7 +60,11 @@
           "width": 0.261112
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|35250001|175400001|43a95a2d-12d7-4e5f-ad38-253d17d1ad7f|d76435cd-587b-447c-917a-6333c33e0aa5",
+        "courtyards_overlap|49250001|175400001|d76435cd-587b-447c-917a-6333c33e0aa5|f4b37868-70e6-4f71-85c4-dac8e7c4ee52",
+        "courtyards_overlap|63250001|175400001|62fae747-17b1-44e1-af84-4abbf5d98901|f4b37868-70e6-4f71-85c4-dac8e7c4ee52"
+      ],
       "meta": {
         "version": 2
       },
@@ -408,7 +412,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 600,
+    "annotate_start_num": 500,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
