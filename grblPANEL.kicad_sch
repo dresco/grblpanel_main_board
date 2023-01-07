@@ -346,7 +346,7 @@
       (reference "C101") (unit 1) (value "470n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d3c757f4-85a2-4c64-b768-7bb57e3daca0/3f97f360-606e-4504-b2e0-a94d658a7f48"
-      (reference "C102") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C102") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d3c757f4-85a2-4c64-b768-7bb57e3daca0/5b5dce5e-8493-4767-9ce1-311754bbe4d8"
       (reference "C103") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -355,10 +355,10 @@
       (reference "C104") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/d3c757f4-85a2-4c64-b768-7bb57e3daca0/e24212c7-ed62-495d-836a-9e3e54160cfa"
-      (reference "C105") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C105") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/d3c757f4-85a2-4c64-b768-7bb57e3daca0/c50bc0cb-b8cf-48a4-a036-730a64fa67d2"
-      (reference "C106") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C106") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/437f2ceb-712b-41a0-9e79-c6c2becba629/cf2befbc-b586-4a68-b01b-b3515cc8981f"
       (reference "C201") (unit 1) (value "4u7") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -403,7 +403,7 @@
       (reference "C502") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/7148135c-915e-4af4-a225-653bce14d471/e03e009e-f3ce-493f-8aab-8ed0c4528f2f"
-      (reference "C601") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C601") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/7148135c-915e-4af4-a225-653bce14d471/7af27c08-8746-4613-b9a8-9bc66aa50dc1"
       (reference "C602") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
