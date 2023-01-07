@@ -679,10 +679,10 @@
       (reference "RN605") (unit 1) (value "200") (footprint "Resistor_SMD:R_Array_Concave_4x0603")
     )
     (path "/437f2ceb-712b-41a0-9e79-c6c2becba629/ce40af38-6eca-4492-8fde-6e9a33cb1c65"
-      (reference "SW201") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
+      (reference "SW201") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_PTS810")
     )
     (path "/437f2ceb-712b-41a0-9e79-c6c2becba629/0172b5a2-a1cb-43e3-9544-457799cbb77c"
-      (reference "SW202") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
+      (reference "SW202") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_PTS810")
     )
     (path "/d3c757f4-85a2-4c64-b768-7bb57e3daca0/b30c56cd-1ba0-4337-8363-8a82f3aeecab"
       (reference "TP101") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
