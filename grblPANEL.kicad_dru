@@ -12,3 +12,7 @@
 	(constraint clearance (min 0.127mm))
 	(condition "A.insideCourtyard('D6*') "))
 
+#ignore silkscreen overlap violations in rule area(s) 'silk_ok'
+(rule allow_clearance_violation
+(constraint silk_clearance (min -1mm))
+(condition "A.insideArea('silk_ok')"))
