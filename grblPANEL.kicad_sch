@@ -376,10 +376,10 @@
       (reference "C205") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/437f2ceb-712b-41a0-9e79-c6c2becba629/f6941213-1993-41e0-966f-fdc929306e45"
-      (reference "C206") (unit 1) (value "10p") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C206") (unit 1) (value "16p") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/437f2ceb-712b-41a0-9e79-c6c2becba629/26cfcc31-15af-42ad-903f-3d0f43d5d834"
-      (reference "C207") (unit 1) (value "10p") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C207") (unit 1) (value "16p") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/437f2ceb-712b-41a0-9e79-c6c2becba629/2be5719e-b577-40c1-b05d-cf32b70ec626"
       (reference "C208") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -388,10 +388,10 @@
       (reference "C301") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/356a7c5f-2158-4e57-900c-d5a382895313/a92d3827-ae58-479d-9e4d-c0475b0ffb5f"
-      (reference "C302") (unit 1) (value "10p") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C302") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/356a7c5f-2158-4e57-900c-d5a382895313/9013f75c-3d5b-4a79-9793-a105a8162e85"
-      (reference "C303") (unit 1) (value "10p") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C303") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/4da24ca5-d3e5-4dcb-8fe8-efef99f12779/058eb096-3e23-4bb8-ad61-dcfc93da82af"
       (reference "C401") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -664,19 +664,19 @@
       (reference "R708") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/7148135c-915e-4af4-a225-653bce14d471/6cd39ac1-1cc5-4bb8-ab3f-e9fbacf3fe45"
-      (reference "RN601") (unit 1) (value "200") (footprint "Resistor_SMD:R_Array_Concave_4x0603")
+      (reference "RN601") (unit 1) (value "200") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
     (path "/7148135c-915e-4af4-a225-653bce14d471/b89029d3-80c0-4f69-beb0-54cee35d4f39"
-      (reference "RN602") (unit 1) (value "200") (footprint "Resistor_SMD:R_Array_Concave_4x0603")
+      (reference "RN602") (unit 1) (value "200") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
     (path "/7148135c-915e-4af4-a225-653bce14d471/165badfd-abed-4bd6-ab5e-925bf55be025"
-      (reference "RN603") (unit 1) (value "200") (footprint "Resistor_SMD:R_Array_Concave_4x0603")
+      (reference "RN603") (unit 1) (value "200") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
     (path "/7148135c-915e-4af4-a225-653bce14d471/4afca757-d279-4000-ac10-0f75e21a62bf"
-      (reference "RN604") (unit 1) (value "200") (footprint "Resistor_SMD:R_Array_Concave_4x0603")
+      (reference "RN604") (unit 1) (value "200") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
     (path "/7148135c-915e-4af4-a225-653bce14d471/6b50774b-f17a-44d9-81b4-089d880f9e37"
-      (reference "RN605") (unit 1) (value "200") (footprint "Resistor_SMD:R_Array_Concave_4x0603")
+      (reference "RN605") (unit 1) (value "200") (footprint "Resistor_SMD:R_Array_Convex_4x0603")
     )
     (path "/437f2ceb-712b-41a0-9e79-c6c2becba629/ce40af38-6eca-4492-8fde-6e9a33cb1c65"
       (reference "SW201") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_PTS810")
