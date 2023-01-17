@@ -612,14 +612,14 @@
     (path "/4da24ca5-d3e5-4dcb-8fe8-efef99f12779/2acd2bd3-05fd-47b2-bc78-4871ae1e86d6"
       (reference "R407") (unit 1) (value "10") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
+    (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/274f34a6-a307-48a7-a660-b805c6ca42ad"
+      (reference "R501") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/d4ad0635-bfdc-421a-8982-f6d3b8bf63d7"
-      (reference "R501") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R502") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/991e55d0-022d-40f6-ba85-4d4b655cd3b2"
-      (reference "R502") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/274f34a6-a307-48a7-a660-b805c6ca42ad"
-      (reference "R503") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R503") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/d3b4e76e-bb50-45c5-b9b3-94e0c997b79c"
       (reference "R504") (unit 1) (value "5R6") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -702,56 +702,23 @@
     (path "/4da24ca5-d3e5-4dcb-8fe8-efef99f12779/b04450d8-68aa-429a-a073-74fbb1db6dc1"
       (reference "TP402") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
     )
-    (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/3f708edb-2891-485b-a8e7-e94d1461aa59"
+    (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/56d319d6-9154-40fd-b073-2be06ec0a105"
       (reference "TP501") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
     )
-    (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/85558658-697c-4c72-8417-c50ef7b6f7ab"
+    (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/2818bd06-857c-4f88-99f8-f837cac02934"
       (reference "TP502") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
     )
-    (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/56d319d6-9154-40fd-b073-2be06ec0a105"
+    (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/63445544-5d26-41f5-9ff0-4cd9d4ec2a4f"
       (reference "TP503") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
     )
-    (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/2818bd06-857c-4f88-99f8-f837cac02934"
-      (reference "TP504") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/63445544-5d26-41f5-9ff0-4cd9d4ec2a4f"
-      (reference "TP505") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/820464cd-c94f-4a19-ae2c-efbb191fe1a5"
-      (reference "TP506") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
     (path "/2c60fe6e-45f9-484b-a2a4-9c1dd728d5af/9bb6ccac-a2c0-49f0-8823-dccefb3cd5bd"
-      (reference "TP507") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
+      (reference "TP504") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
     )
     (path "/7148135c-915e-4af4-a225-653bce14d471/17775955-c36e-477e-bc81-004da0da9f72"
       (reference "TP601") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
     )
     (path "/7148135c-915e-4af4-a225-653bce14d471/acfd2da3-c96c-4c4c-b43e-397b104ae4c4"
       (reference "TP602") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/099bce07-f087-4ecd-a01c-98dd8f97e8f8/afbf6fdc-ddb5-423f-aab3-f61d529b78a9"
-      (reference "TP701") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/099bce07-f087-4ecd-a01c-98dd8f97e8f8/82026483-9ade-4df2-b21e-77571ccc10b6"
-      (reference "TP702") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/099bce07-f087-4ecd-a01c-98dd8f97e8f8/350805ce-4cbe-4600-ae5b-06ce994ace60"
-      (reference "TP703") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/099bce07-f087-4ecd-a01c-98dd8f97e8f8/5b3729fa-79ff-47d1-bbcd-0b1289063893"
-      (reference "TP704") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/099bce07-f087-4ecd-a01c-98dd8f97e8f8/5983b370-9c35-4589-a4e0-47ec16ad60d9"
-      (reference "TP705") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/099bce07-f087-4ecd-a01c-98dd8f97e8f8/43b1bfbf-2576-4443-a463-fe7dabf13a50"
-      (reference "TP706") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/099bce07-f087-4ecd-a01c-98dd8f97e8f8/027c8557-8ea2-401c-8edb-1b8c1f824b12"
-      (reference "TP707") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
-    (path "/099bce07-f087-4ecd-a01c-98dd8f97e8f8/d5014d77-fd83-4360-9cbf-743907851298"
-      (reference "TP708") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
     )
     (path "/d3c757f4-85a2-4c64-b768-7bb57e3daca0/a6dccf05-35ca-4c4b-83c2-df280466a5dd"
       (reference "U101") (unit 1) (value "MAX17612A") (footprint "dresco:TDFN-10-1EP_3x3mm_P0.5mm_EP1.6x2.39mm_ThermalVias")

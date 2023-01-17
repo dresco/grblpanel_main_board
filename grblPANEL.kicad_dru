@@ -1,18 +1,22 @@
 (version 1)
 
+#tighten clearance for fine pitch ICs
 (rule "min clearance 1"
 	(constraint clearance (min 0.127mm))
 	(condition "A.insideCourtyard('U101') || A.insideCourtyard('U201') || A.insideCourtyard('U601') "))
 
+#tighten clearance for fine pitch jumpers
 (rule "min clearance 2"
 	(constraint clearance (min 0.127mm))
 	(condition "A.insideBackCourtyard('J202') || A.insideCourtyard('J501') "))
 
+#tighten clearance for TCS diode arrays
 (rule "min clearance 3"
 	(constraint clearance (min 0.127mm))
 	(condition "A.insideCourtyard('D6*') "))
 
-#ignore silkscreen overlap violations in rule area(s) 'silk_ok'
+#ignore silkscreen overlap violations in rule area(s) 'interlocking_terminals'
 (rule allow_clearance_violation
-(constraint silk_clearance (min -1mm))
-(condition "A.insideArea('silk_ok')"))
+	(constraint silk_clearance (min -1mm))
+	(condition "A.insideArea('interlocking_terminals')"))
+
