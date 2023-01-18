@@ -2459,7 +2459,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2f51ec5b-95fd-432d-bfcd-401dad0c136f)
     )
-    (fp_text user "*" (at -2.685 -1.2) (layer "F.SilkS")
+    (fp_text user "*" (at -2.685 -1.2) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c18fae54-8bdb-4e53-a1d5-22710393ab89)
     )
@@ -7045,8 +7045,13 @@
   (gr_line (start 105.7 121.3) (end 105.7 117.8) (layer "B.SilkS") (width 0.15) (tstamp 386ee220-a1a8-4af6-8728-527d81eb25cc))
   (gr_line (start 119.7 121.3) (end 119.7 117.8) (layer "B.SilkS") (width 0.15) (tstamp a10505e5-8cad-4dc3-be35-4ec8c4977f0c))
   (gr_line (start 161.8 121.3) (end 161.8 117.8) (layer "B.SilkS") (width 0.15) (tstamp a746f3b8-5c4f-463b-ac3c-8e1522d95127))
-  (gr_circle (center 113.8 103.1) (end 114.1 103.1) (layer "B.SilkS") (width 0.15) (fill none) (tstamp e8ed5b33-6bd8-4687-a3d9-0fba8fc8934d))
+  (gr_circle (center 113.8 103.1) (end 114 103.1) (layer "B.SilkS") (width 0.2) (fill none) (tstamp e8ed5b33-6bd8-4687-a3d9-0fba8fc8934d))
   (gr_line (start 133.8 121.3) (end 133.8 117.8) (layer "B.SilkS") (width 0.15) (tstamp fa3d8ae2-749e-46a2-bcbc-c22ec35aa5a7))
+  (gr_circle (center 116.6 106.6) (end 116.8 106.6) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 1aee2305-fe78-4844-ad70-22d9a7d80037))
+  (gr_circle (center 135.5 95.7) (end 135.7 95.7) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 22df4894-95c8-4927-97e0-61fb16738aff))
+  (gr_circle (center 165.3 80.4) (end 165.5 80.4) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 3522a0eb-c340-4f6d-8197-6f7baa2a3949))
+  (gr_circle (center 117.4 88) (end 117.6 88) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 8040f188-db79-4aa2-af55-03e3c7436299))
+  (gr_circle (center 165.3 95.65) (end 165.5 95.65) (layer "F.SilkS") (width 0.2) (fill none) (tstamp cf9cb875-f061-4e23-90ca-19da7a07a32a))
   (gr_rect (start 105 130) (end 189 75) (layer "Edge.Cuts") (width 0.2) (fill none) (tstamp 23f96a5b-b73f-4af7-81e9-fae98791b224))
   (gr_poly
     (pts
