@@ -1,22 +1,43 @@
 (version 1)
 
-#tighten clearance for fine pitch ICs
-(rule "min clearance 1"
-	(constraint clearance (min 0.127mm))
-	(condition "A.insideCourtyard('U101') || A.insideCourtyard('U201') || A.insideCourtyard('U601') "))
 
-#tighten clearance for fine pitch jumpers
-(rule "min clearance 2"
+#Clearance for U101
+(rule "U101 clearance"
 	(constraint clearance (min 0.127mm))
-	(condition "A.insideBackCourtyard('J202') || A.insideCourtyard('J501') "))
+	(condition "A.insideCourtyard('U101')"))
 
-#tighten clearance for TCS diode arrays
-(rule "min clearance 3"
+#Clearance for U201
+(rule "U201 clearance"
+	(constraint clearance (min 0.127mm))
+	(condition "A.insideCourtyard('U201')"))
+
+#Clearance for U601
+(rule "U601 clearance"
+	(constraint clearance (min 0.127mm))
+	(condition "A.insideCourtyard('U601')"))
+
+#Clearance for J202
+(rule "J202 clearance"
+	(constraint clearance (min 0.127mm))
+	(condition "A.insideBackCourtyard('J202')"))
+
+#Clearance for J501
+(rule "J501 clearance"
+	(constraint clearance (min 0.127mm))
+	(condition "A.insideCourtyard('J501')"))
+
+#Clearance for TVS diode arrays
+(rule "TVS_Array clearance"
 	(constraint clearance (min 0.127mm))
 	(condition "A.insideCourtyard('D6*') "))
 
-#ignore silkscreen overlap violations in rule area(s) 'interlocking_terminals'
+#Ignore silkscreen overlap violations in rule area(s) 'interlocking_terminals'
 (rule allow_clearance_violation
 	(constraint silk_clearance (min -1mm))
 	(condition "A.insideArea('interlocking_terminals')"))
+
+#Maintain clearance for outer layer copper pours (else overriden by above)
+(rule "outer_pour clearance"
+	(constraint clearance (min 0.508mm))
+	(condition "A.Name == 'outer_pour'"))
 
