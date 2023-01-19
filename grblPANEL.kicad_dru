@@ -38,6 +38,6 @@
 
 #Maintain clearance for outer layer copper pours (else overriden by above)
 (rule "outer_pour clearance"
-	(constraint clearance (min 0.508mm))
+	(constraint clearance (min 0.4mm))
 	(condition "A.Name == 'outer_pour'"))
 
