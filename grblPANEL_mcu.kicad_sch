@@ -12,6 +12,41 @@
   )
 
   (lib_symbols
+    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "TP" (at 0 6.858 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "TestPoint" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "test point tp" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "test point" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "TestPoint_0_1"
+        (circle (center 0 3.302) (radius 0.762)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "TestPoint_1_1"
+        (pin passive line (at 0 0 90) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector:USB_C_Receptacle_USB2.0" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -10.16 19.05 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -242,51 +277,6 @@
         (pin passive line (at -7.62 -22.86 90) (length 5.08)
           (name "SHIELD" (effects (font (size 1.27 1.27))))
           (number "S1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x02" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x02_1_1"
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 1.27) (end 1.27 -3.81)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -2680,36 +2670,10 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 66.04 78.74 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0758689c-4944-4a31-95d9-0165b605df1b)
-    (property "Reference" "J203" (at 64.77 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "USART6" (at 64.77 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 66.04 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 66.04 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2e33474e-6f48-4bd0-b317-487542aff1a4))
-    (pin "2" (uuid 3ae2bb77-f788-4de2-9358-27c2bb153549))
-    (instances
-      (project "grblPANEL"
-        (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "J203") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:+3V3") (at 199.39 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ebda24a-2b26-4e8c-868f-39ced65abaf6)
-    (property "Reference" "#PWR0212" (at 199.39 38.1 0)
+    (property "Reference" "#PWR0211" (at 199.39 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 199.39 29.21 0)
@@ -2725,7 +2689,7 @@
     (instances
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "#PWR0212") (unit 1)
+          (reference "#PWR0211") (unit 1)
         )
       )
     )
@@ -2930,7 +2894,7 @@
   (symbol (lib_id "power:+3V3") (at 135.89 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d2f6664-a0bf-4d40-ba72-fbb21673237a)
-    (property "Reference" "#PWR0210" (at 135.89 54.61 0)
+    (property "Reference" "#PWR0209" (at 135.89 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 135.89 45.72 0)
@@ -2946,7 +2910,7 @@
     (instances
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "#PWR0210") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
@@ -2955,7 +2919,7 @@
   (symbol (lib_id "power:GND") (at 54.61 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e07ab86-e5a0-4661-941a-cb5e5328cb1d)
-    (property "Reference" "#PWR0203" (at 54.61 68.58 0)
+    (property "Reference" "#PWR0201" (at 54.61 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 64.77 0)
@@ -2971,7 +2935,7 @@
     (instances
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "#PWR0203") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -3024,6 +2988,31 @@
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
           (reference "R209") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 71.12 81.28 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3b8548a7-4121-46a5-a03b-1a48c1e7ace8)
+    (property "Reference" "TP202" (at 63.5 81.28 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TestPoint" (at 67.818 78.74 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" (at 71.12 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 71.12 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 70946d31-4cb5-4c0d-ab3f-b786b23e9bfd))
+    (instances
+      (project "grblPANEL"
+        (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
+          (reference "TP202") (unit 1)
         )
       )
     )
@@ -3084,7 +3073,7 @@
   (symbol (lib_id "power:GND") (at 130.81 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45e977ca-1257-494d-8c22-f37a337da29b)
-    (property "Reference" "#PWR0208" (at 130.81 194.31 0)
+    (property "Reference" "#PWR0207" (at 130.81 194.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 193.04 0)
@@ -3100,7 +3089,7 @@
     (instances
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "#PWR0208") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -3137,7 +3126,7 @@
   (symbol (lib_id "power:+3V3") (at 135.89 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a3ed4ea-e564-458b-b63e-9f8d30f6c6de)
-    (property "Reference" "#PWR0209" (at 135.89 41.91 0)
+    (property "Reference" "#PWR0208" (at 135.89 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 135.89 33.02 0)
@@ -3153,7 +3142,7 @@
     (instances
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "#PWR0209") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -3187,7 +3176,7 @@
   (symbol (lib_id "power:GND") (at 165.1 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 586b4d22-7a6e-49ef-8a67-91de24d18e74)
-    (property "Reference" "#PWR0211" (at 165.1 153.67 0)
+    (property "Reference" "#PWR0210" (at 165.1 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 152.4 0)
@@ -3203,7 +3192,7 @@
     (instances
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "#PWR0211") (unit 1)
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -3290,7 +3279,7 @@
     (property "Value" "LED" (at 139.7 58.7374 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 135.89 55.88 0)
+    (property "Footprint" "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" (at 135.89 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 135.89 55.88 0)
@@ -3447,7 +3436,7 @@
   (symbol (lib_id "power:GND") (at 208.28 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8cbd55a4-7a2c-4e29-ba29-39cad95c48cb)
-    (property "Reference" "#PWR0214" (at 208.28 138.43 0)
+    (property "Reference" "#PWR0213" (at 208.28 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 205.74 134.62 0)
@@ -3463,7 +3452,7 @@
     (instances
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "#PWR0214") (unit 1)
+          (reference "#PWR0213") (unit 1)
         )
       )
     )
@@ -3472,7 +3461,7 @@
   (symbol (lib_id "power:GND") (at 59.69 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90af0337-c835-4d0d-9094-6b58e255b7c1)
-    (property "Reference" "#PWR0202" (at 59.69 57.15 0)
+    (property "Reference" "#PWR0203" (at 59.69 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 55.88 0)
@@ -3488,7 +3477,32 @@
     (instances
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "#PWR0202") (unit 1)
+          (reference "#PWR0203") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 71.12 78.74 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 956ed703-8a1c-4daf-9f24-0a583c105357)
+    (property "Reference" "TP201" (at 63.5 78.74 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TestPoint" (at 67.818 76.2 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" (at 71.12 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 71.12 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7e98b305-cbc7-48ba-ac8b-6bd106fdaad7))
+    (instances
+      (project "grblPANEL"
+        (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
+          (reference "TP201") (unit 1)
         )
       )
     )
@@ -3497,7 +3511,7 @@
   (symbol (lib_id "power:+3V3") (at 59.69 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99646a0f-a088-448b-8a3a-2ed80a033b65)
-    (property "Reference" "#PWR0201" (at 59.69 41.91 0)
+    (property "Reference" "#PWR0202" (at 59.69 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 59.69 33.02 0)
@@ -3513,7 +3527,7 @@
     (instances
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "#PWR0201") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -3629,7 +3643,7 @@
   (symbol (lib_id "power:VBUS") (at 223.52 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a53e74e6-cce3-4b38-a789-51e1bd5a03fd)
-    (property "Reference" "#PWR0216" (at 223.52 133.35 0)
+    (property "Reference" "#PWR0215" (at 223.52 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 223.52 124.46 0)
@@ -3645,7 +3659,7 @@
     (instances
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "#PWR0216") (unit 1)
+          (reference "#PWR0215") (unit 1)
         )
       )
     )
@@ -3654,7 +3668,7 @@
   (symbol (lib_id "power:GND") (at 228.6 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6282170-be39-49ac-aa32-563f5cb2de43)
-    (property "Reference" "#PWR0218" (at 228.6 68.58 0)
+    (property "Reference" "#PWR0217" (at 228.6 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.6 67.31 0)
@@ -3670,7 +3684,7 @@
     (instances
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "#PWR0218") (unit 1)
+          (reference "#PWR0217") (unit 1)
         )
       )
     )
@@ -3705,7 +3719,7 @@
   (symbol (lib_id "power:GND") (at 212.09 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab101060-c6bc-4957-aafd-27f970fa5a6e)
-    (property "Reference" "#PWR0215" (at 212.09 116.84 0)
+    (property "Reference" "#PWR0214" (at 212.09 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 212.09 115.57 0)
@@ -3721,7 +3735,7 @@
     (instances
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "#PWR0215") (unit 1)
+          (reference "#PWR0214") (unit 1)
         )
       )
     )
@@ -3730,7 +3744,7 @@
   (symbol (lib_id "power:GND") (at 114.3 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6dd61f9-9d8c-49f5-9663-3a73eff1281d)
-    (property "Reference" "#PWR0207" (at 114.3 142.24 0)
+    (property "Reference" "#PWR0206" (at 114.3 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 140.97 0)
@@ -3746,7 +3760,7 @@
     (instances
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "#PWR0207") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
@@ -3755,7 +3769,7 @@
   (symbol (lib_id "power:GND") (at 208.28 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c784ead2-5593-4511-b146-25ecdbe2c762)
-    (property "Reference" "#PWR0213" (at 208.28 59.69 0)
+    (property "Reference" "#PWR0212" (at 208.28 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.28 58.42 0)
@@ -3771,7 +3785,7 @@
     (instances
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "#PWR0213") (unit 1)
+          (reference "#PWR0212") (unit 1)
         )
       )
     )
@@ -3909,7 +3923,7 @@
   (symbol (lib_id "power:GND") (at 223.52 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de7eb3a9-eac1-4caf-98e9-fb2d42004443)
-    (property "Reference" "#PWR0217" (at 223.52 160.02 0)
+    (property "Reference" "#PWR0216" (at 223.52 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 223.52 158.75 0)
@@ -3925,7 +3939,7 @@
     (instances
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "#PWR0217") (unit 1)
+          (reference "#PWR0216") (unit 1)
         )
       )
     )
@@ -4064,7 +4078,7 @@
   (symbol (lib_id "power:VBUS") (at 231.14 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f96b6f2e-1328-4e8c-b7ce-613e6370f6a5)
-    (property "Reference" "#PWR0219" (at 231.14 87.63 0)
+    (property "Reference" "#PWR0218" (at 231.14 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 231.14 78.74 0)
@@ -4080,7 +4094,7 @@
     (instances
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "#PWR0219") (unit 1)
+          (reference "#PWR0218") (unit 1)
         )
       )
     )
@@ -4089,7 +4103,7 @@
   (symbol (lib_id "power:GND") (at 256.54 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff8242ef-7291-489b-ba87-c456c18cd824)
-    (property "Reference" "#PWR0220" (at 256.54 132.08 0)
+    (property "Reference" "#PWR0219" (at 256.54 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 128.27 0)
@@ -4105,7 +4119,7 @@
     (instances
       (project "grblPANEL"
         (path "/1f77927e-2ca9-4002-a421-c6796d5f0016/437f2ceb-712b-41a0-9e79-c6c2becba629"
-          (reference "#PWR0220") (unit 1)
+          (reference "#PWR0219") (unit 1)
         )
       )
     )
