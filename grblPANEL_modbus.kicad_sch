@@ -7,7 +7,7 @@
   (title_block
     (title "grblPANEL")
     (date "2022-12-12")
-    (rev "0.1")
+    (rev "B")
     (company "dresco")
   )
 
@@ -927,7 +927,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 176.53 67.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 21081a96-bc0e-418d-8648-7aa600383e35)
     (property "Reference" "R404" (at 177.8 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1088,7 +1088,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 176.53 85.09 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 7741c217-6ef6-4909-afdb-f2541e5a202b)
     (property "Reference" "R405" (at 177.8 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))

@@ -6,8 +6,8 @@
 
   (title_block
     (title "grblPANEL")
-    (date "2022-12-12")
-    (rev "0.1")
+    (date "2023-03-09")
+    (rev "B")
     (company "dresco")
   )
 
@@ -3279,7 +3279,7 @@
     (property "Value" "LED" (at 139.7 58.7374 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" (at 135.89 55.88 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 135.89 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 135.89 55.88 0)

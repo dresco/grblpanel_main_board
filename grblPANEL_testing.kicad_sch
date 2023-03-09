@@ -6,6 +6,7 @@
 
   (title_block
     (date "2022-12-12")
+    (rev "B")
   )
 
   (lib_symbols
