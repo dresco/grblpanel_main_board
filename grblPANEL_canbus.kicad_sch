@@ -1036,7 +1036,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 191.77 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 9013f75c-3d5b-4a79-9793-a105a8162e85)
     (property "Reference" "C303" (at 193.04 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1062,7 +1062,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 191.77 72.39 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid a92d3827-ae58-479d-9e4d-c0475b0ffb5f)
     (property "Reference" "C302" (at 193.04 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1171,7 +1171,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 74.93 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid ea8ecc9d-8c2c-48f7-8d82-b48a66d18a0f)
     (property "Reference" "R301" (at 76.2 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
