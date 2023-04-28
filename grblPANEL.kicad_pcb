@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "grblPANEL")
+    (date "2023-04-28")
+    (rev "B")
+    (company "dresco")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (1 "In1.Cu" power)
