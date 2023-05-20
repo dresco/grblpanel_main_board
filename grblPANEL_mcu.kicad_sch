@@ -3797,7 +3797,7 @@
     (property "Reference" "R205" (at 121.92 58.42 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1k" (at 128.27 58.42 90)
+    (property "Value" "4k7" (at 128.27 58.42 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 125.73 62.738 90)
